@@ -89,8 +89,6 @@ final class FilterConverter {
           filter.attribute,
           filter.isNegated,
         );
-      default:
-        throw ArgumentError('Filter type ${filter.runtimeType} not supported');
     }
   }
 
